@@ -37,6 +37,7 @@ public class FizzBuzzPart4 {
     }
     
     public static ArrayList<String> fizzBuzzArrayList(final int n) {
+        //no need to include restrictions for List
         //simply using List from Java collections library instead of Array
     }
 }
