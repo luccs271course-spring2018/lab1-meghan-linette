@@ -38,7 +38,8 @@ public class FizzBuzzPart3 {
     }
     
     public static String[] FizzBuzz(final int n){
-        //needs to store store resulting data in an Array and return that array
+        
+        //needs to store resulting data in an Array and return that array
         //have test suite for values of n: -10, -1, 0, 1, 7, 17
     }
 }
