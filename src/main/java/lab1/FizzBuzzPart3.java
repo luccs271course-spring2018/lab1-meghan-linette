@@ -12,10 +12,10 @@ public class FizzBuzzPart3 {
         System.out.println("Please enter a positive integer (this will be the number the sequence will go up to):  ");
         int i = scan.nextInt();
         
-        String[] fizzBuzzOutput = new String[n+1];
-        fizzBuzzOutput = FizzBuzz(n, fizzBuzzOutput);
+        String[] fizzBuzzOutput = new String[i+1];
+        fizzBuzzOutput = FizzBuzz(i, fizzBuzzOutput);
 
-        for (int i = 1; i < fizzBuzzOutput.length; i++){
+        for (int n = 1; n < fizzBuzzOutput.length; n++){
             System.out.println(fizzBuzzOutput[i]);
         }
         //if (i <= 0){
@@ -23,7 +23,7 @@ public class FizzBuzzPart3 {
        // }
     }
     
-    public static String[] FizzBuzz(final int n, String[] fizzBuzzOutput){
+    public static String[] FizzBuzz(final int i, String[] fizzBuzzOutput){
         //needs to store resulting data in an Array and return that array
         //have test suite for values of n: -10, -1, 0, 1, 7, 17
         for (int k=1; k<=i; k++){
