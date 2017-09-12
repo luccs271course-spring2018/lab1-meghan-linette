@@ -1,0 +1,44 @@
+# Lab 1 - Part 5 <h1> 
+
+
+----------
+
+
+## Discussion Questions
+
+ 1. What would be a really simple solution if n were not an argument, i.e., if it were always 17?
+
+	If n were always 17, the simplest solution would be to make a string with the answer. 
+	For example, 
+  ```javascript
+package lab1Part5;
+
+  public class Disc01 {
+   
+    public static void main(String[] args) {
+ 
+        String n = ("1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,"
+            + "Fizz,13,14,FizzBuzz,16,17");
+        System.out.println (n);
+      }
+}
+```
+
+ 2. How could you have automatically tested your initial solution from part 2?
+  
+ A tool used to automatically test programs is JUnit. JUnit is useful because tests run continuously, 
+ a feature made possible because of its graphical user interface. The continuous testing allows for fast 
+ and easy debugging. It also allows the user to program complex tests in order to find hidden errors and 
+ run multiple tests at once. This feature becomes especially useful in part three of this lab.  
+ 
+
+ 3. What changes between parts 2, 3, and 4, and what stays the same? Does it matter what list implementation you choose?
+    if so, in what way(s)?
+	
+  The main different between parts two and three is the user input. In part two of our program, int i is predetermined 
+  and set to 20. When the program runs, fizz-buzz automatically generates up to the number 20. In part three, the user 
+  must input a positive integer to set the limit and generate the program. Part three also takes the output from the for 
+  loop and stores it into an array before displaying the array onto the screen. Whereas part two simply displays to 
+  output on the screen only. Part four, unlike part three, uses an array list from the java collections library. The list
+  implementation you choose is important because they obtain different elements and operations. Throughout all parts of
+  the program, the for loop that generates the fizz-buzz program remains the same.
