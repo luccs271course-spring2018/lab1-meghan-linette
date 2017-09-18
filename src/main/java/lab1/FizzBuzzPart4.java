@@ -8,7 +8,6 @@ public class FizzBuzzPart4 {
     public static void main(String[] args) {
         //Scanner scan = new Scanner(System.in);
 
-        //System.out.println("Please enter a positive integer (this will be the number the sequence will go up to):  ");
         //int i = scan.nextInt();
         int i = 20;
         
