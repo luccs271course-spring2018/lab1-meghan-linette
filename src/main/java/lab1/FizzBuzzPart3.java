@@ -38,7 +38,7 @@ public class FizzBuzzPart3 {
                 fizzBuzzOutput[k] = "Buzz";
             }
             else{
-                fizzBuzzOutput[k] = String.valueOf[k];
+                fizzBuzzOutput[k] = String.valueOf(k);
             }
 
         }

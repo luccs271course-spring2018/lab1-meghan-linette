@@ -6,22 +6,14 @@ import java.util.ArrayList;
 public class FizzBuzzPart4 {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in);
 
-        System.out.println("Please enter a positive integer (this will be the number the sequence will go up to):  ");
-        int i = scan.nextInt();
+        //System.out.println("Please enter a positive integer (this will be the number the sequence will go up to):  ");
+        //int i = scan.nextInt();
+        int i = 20;
         
         ArrayList<String> fizzBuzzResult = new ArrayList<String>();
-        fizzBuzzResult = FizzBuzz(i, fizzBuzzResult);
-
-        for (int n = 1; n < fizzBuzzResult.size(); n++){
-            System.out.println(fizzBuzzResult.get(n));
-        }
-
-    }
-    
-    public static ArrayList<String> fizzBuzzArrayList(final int i, String[] fizzBuzzResult) {
-        //simply using List from Java collections library instead of Array
+        
         for (int k=1; k<=(i+1); k++){
 
             if ((k % 3 == 0) && (k % 5 == 0)){
@@ -38,9 +30,12 @@ public class FizzBuzzPart4 {
             }
 
         }
-        
-        System.out.println(ArrayList.toString(fizzBuzzResult));
-        
-        return fizzBuzzResult;
+
+        for (int n = 1; n < fizzBuzzResult.size(); n++){
+            
+            System.out.println(fizzBuzzResult.get(n));
+        }
+
     }
+        
 }
